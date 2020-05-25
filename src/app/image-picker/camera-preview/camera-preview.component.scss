@@ -1,0 +1,57 @@
+.underlay {
+    position: absolute;
+    background-color: var(--ion-color-dark);
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:299998;
+  }
+
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:299999;
+}
+
+.icons {
+    left: 0px;  right: 0px;
+    position: absolute; /*it can be fixed too*/
+    text-align:center;
+    margin: auto;
+    z-index:300000;
+    bottom: 10%;
+}
+
+.take_pic_class {
+    background-size: 60px 60px;
+    color:var(--ion-color-medium);
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-left:30%;
+    display: inline-flex;
+}
+
+.reverseCamera {
+    background-size: 60px 60px;
+    color:var(--ion-color-medium);
+    width: 55px;
+    height: 55px;
+    float: right;
+    margin-right:30%;
+    display: inline-flex;
+}
+  
+.cameraPreview {
+display: flex;
+width: 100%;
+height: 100%;
+}
+
+ion-content, ion-page, .nav-decor {
+    background-color: transparent !important;
+}

@@ -1,0 +1,21 @@
+<div *ngIf="editing === true" class="bg-transparent">
+  <app-camera-preview
+    (takePictureCamera)="ontakePictureCamera($event)"
+  ></app-camera-preview>
+</div>
+<div *ngIf="editing === false">
+  <ion-img
+    role="button"
+    class="image location-image"
+    (click)="editToggle()"
+    [src]="selectedImage"
+    *ngIf="!!selectedImage === true && forceNoImage === false"
+  ></ion-img>
+  <ion-button
+    class="camera"
+    color="dark"
+    (click)="editToggle()"
+    *ngIf="!!selectedImage === false || forceNoImage === true"
+  ><ion-icon name="camera"></ion-icon></ion-button>
+</div>
+

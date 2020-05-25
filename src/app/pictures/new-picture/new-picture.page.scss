@@ -1,0 +1,38 @@
+.submitButton {
+    width:100%;
+    height:40px;
+}
+
+ion-header {
+    background-color: #004225 !important;
+}
+
+ion-content, ion-item, ion-list, ion-row  {
+    --background: #73ba9b !important;
+    background-color: #73ba9b !important;
+}
+
+ion-title {
+    color: white;
+}
+
+.iconwarning {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(204, 11, 11);
+    vertical-align: middle;
+    padding-left:10px;
+}
+
+.iconthumb {
+    display: inline-block;
+    padding-left:10px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+   
+.text{
+    padding-top: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}

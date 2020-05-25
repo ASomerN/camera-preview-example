@@ -1,0 +1,24 @@
+.picker {
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--ion-color-dark);
+    border-radius: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.location-image {
+  margin:auto;
+  margin-top:40%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px
+}
+
+.camera {
+  margin-left: 45%;
+  margin-top: 45%;
+}

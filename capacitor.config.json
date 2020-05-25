@@ -1,0 +1,12 @@
+{
+  "appId": "com.asomn.ionicapp",
+  "appName": "asomn-ionic-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {
+    "preferences": {
+      "CameraUsesGeolocation": "false"
+    }
+  }
+}
