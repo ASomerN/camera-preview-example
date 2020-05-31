@@ -2,7 +2,7 @@ package com.asomn.ionicapp;
 
 import android.os.Bundle;
 
-import com.getcapacitor.camera.preview.CameraPreview;
+import com.ahm.capacitor.camera.preview.CameraPreview;
 import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Plugin;
 
