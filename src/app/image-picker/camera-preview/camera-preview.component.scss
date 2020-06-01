@@ -1,13 +1,15 @@
+
 .underlay {
     position: absolute;
-    background-color: var(--ion-color-dark);
+    //background-color: var(--ion-color-dark);
+    background-color: transparent !important;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
     z-index:299998;
   }
-
+/*
 .overlay {
     position: absolute;
     top:0;
@@ -16,13 +18,13 @@
     height: 100%;
     z-index:299999;
 }
-
+*/
 .icons {
     left: 0px;  right: 0px;
     position: absolute; /*it can be fixed too*/
     text-align:center;
     margin: auto;
-    z-index:300000;
+    z-index:300001;
     bottom: 10%;
 }
 
@@ -46,10 +48,12 @@
     display: inline-flex;
 }
   
+
 .cameraPreview {
-display: flex;
-width: 100%;
-height: 100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index:300000;
 }
 
 ion-content, ion-page, .nav-decor {

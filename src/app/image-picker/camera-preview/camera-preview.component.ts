@@ -20,9 +20,11 @@ export class CameraPreviewComponent implements OnInit {
       position: "rear", 
       camera: "rear"
     });
+    /*
     const video = document.getElementById('video');
     video.style.width = "90%";
     video.style.marginLeft = "5%";
+    */
   }
   
   takePicture(){
